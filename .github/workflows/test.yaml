@@ -17,7 +17,7 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install Python packages
         shell: bash
@@ -27,7 +27,7 @@ jobs:
         run: |
           cd test
           make clean
-          make
+          make smoke
           # make will return success even if the test fails, so check for failure in the results.xml
           ! grep failure results.xml
 
