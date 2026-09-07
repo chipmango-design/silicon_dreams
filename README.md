@@ -71,9 +71,9 @@ By the end of Module 1 you will push the following to your fork:
 
 You will then submit the latest commit to the ChipIgnite shuttle from the ChipFoundry portal. See `TB-M1-08` and `SG-M1-08` for the checklist.
 
-## Relationship to `chipdiscover-verilog-template`
+## Relationship to `silicon-dreams-m1-starter-repo`
 
-This repo is the Module 1 starter. For Module 3 you will also fork [`chipdiscover-verilog-template`](https://github.com/chipmango/silicon-dreams-m1-starter-repo) — a blank-slate template — because your final boss submission is a multi-module design that integrates the elevator (from this repo) with a new arbiter, a clock-gating cell, and AXIOM's black-box module.
+This repo is the Module 1 starter. For Module 3 you will also fork [`silicon-dreams-m1-starter-repo`](https://github.com/chipmango/silicon-dreams-m1-starter-repo) — a blank-slate template — because your final boss submission is a multi-module design that integrates the elevator (from this repo) with a new arbiter, a clock-gating cell, and AXIOM's black-box module.
 
 ## Learning outcomes (Module 1)
 
