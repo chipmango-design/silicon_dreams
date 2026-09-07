@@ -24,7 +24,7 @@ By the end of the week, the same RTL that shipped in Module 1 will be hardened a
 | **Language** | Verilog HDL + Python (cocotb) |
 | **Platform** | ChipFoundry chipIgnite + cocotb fault-injection harness |
 | **Partners** | ChipMango × ChipFoundry · MoU 2026 |
-| **Course home** | [chipmango.io/silicon-dreams](https://chipmango.io/silicon-dreams) |
+| **Course home** | [chipmango.com/silicon-dreams](https://chipmango.com/silicon-dreams) |
 
 ## The four floors
 
@@ -44,12 +44,14 @@ Each deliberate bug from Module 1 is mapped to a floor of the parallel shaft. Yo
 #    Create your own fork under your GitHub username.
 
 # 2. Clone your fork AND your Module 1 fork as siblings
-git clone https://github.com/<your-username>/mod1-elevator.git
-git clone https://github.com/<your-username>/mod2-parallel-shaft.git
-cd mod2-parallel-shaft
+git clone https://github.com/<your-username>/silicon_dreams.git
+git clone https://github.com/<your-username>/silicon_dreams.git
+cd silicon_dreams/
+git switch mod2-escape
+
 
 # 3. Copy your Module 1 RTL into src/ (the harness expects it there)
-cp ../mod1-elevator/src/elevator.v src/elevator.v
+cp ../elevator/src/elevator.v src/elevator.v
 
 # 4. Install simulation + harness dependencies
 pip install -r test/requirements.txt
@@ -153,7 +155,7 @@ By completing this module, learners will be able to:
 ## Resources
 
 - ChipFoundry platform docs — [chipfoundry.io/docs](https://chipfoundry.io/docs)
-- Silicon Dreams course home — [chipmango.io/silicon-dreams](https://chipmango.io/silicon-dreams)
+- Silicon Dreams course home — [chipmango.com/silicon-dreams](https://chipmango.io/silicon-dreams)
 - cocotb documentation — [docs.cocotb.org](https://docs.cocotb.org)
 - Yosys manual — [yosyshq.net/yosys/documentation.html](https://yosyshq.net/yosys/documentation.html)
 - Course Discord — link distributed with enrolment.
