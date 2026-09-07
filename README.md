@@ -16,7 +16,7 @@ You are about to design a finite-state-machine elevator controller, simulate it,
 | **Language** | Verilog HDL |
 | **Platform** | ChipFoundry chipIgnite |
 | **Partners** | ChipMango × ChipFoundry · MoU 2026 |
-| **Course home** | [chipmango.io/silicon-dreams](https://chipmango.io/silicon-dreams) |
+| **Course home** | [chipmango.com/silicon-dreams](https://chipmango.com/silicon-dreams) |
 
 ## Quick start
 
