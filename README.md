@@ -1,8 +1,10 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# Silicon Dreams — Verilog Project Template
 
-- [Read the documentation for project](docs/info.md)
+This is the Tiny Tapeout project template used by **Silicon Dreams** (`CM-HW-101`), a three-week co-delivered course from **ChipMango** and **ChipFoundry** that takes learners from RTL to real silicon. It's built on the same open-source pillars Tiny Tapeout uses — the SkyWater SKY130 PDK, the OpenLane/LibreLane digital flow, and the fixed Tiny Tapeout pad interface — so the Verilog you write here is genuinely synthesised, verified, and submitted to a real multi-project wafer shuttle.
+
+- [Read the documentation for this project](docs/info.md)
 
 ## What is Tiny Tapeout?
 
@@ -10,16 +12,20 @@ Tiny Tapeout is an educational project that aims to make it easier and cheaper t
 
 To learn more and get started, visit https://tinytapeout.com.
 
+## What is Silicon Dreams?
+
+Silicon Dreams wraps that same tapeout pipeline in a course narrative: you're an independent hardware contractor commissioned to replace the relay-logic elevator controller in a nine-floor building, Mango Tower. Across three modules you design the controller's FSM, harden it against a fault-injection gauntlet, and finally ship a hardened multi-module design to the shuttle. Learn more at [chipmango.io/silicon-dreams](https://chipmango.io/silicon-dreams).
+
 ## Set up your Verilog project
 
 1. Add your Verilog files to the `src` folder.
-2. Edit the [info.yaml](info.yaml) and update information about your project, paying special attention to the `source_files` and `top_module` properties. If you are upgrading an existing Tiny Tapeout project, check out our [online info.yaml migration tool](https://tinytapeout.github.io/tt-yaml-upgrade-tool/).
+2. Edit [info.yaml](info.yaml) and update information about your project, paying special attention to the `source_files` and `top_module` properties. If you are upgrading an existing Tiny Tapeout project, check out the [online info.yaml migration tool](https://tinytapeout.github.io/tt-yaml-upgrade-tool/).
 3. Edit [docs/info.md](docs/info.md) and add a description of your project.
 4. Adapt the testbench to your design. See [test/README.md](test/README.md) for more information.
 
 The GitHub action will automatically build the ASIC files using [LibreLane](https://www.zerotoasiccourse.com/terminology/librelane/).
 
-## Enable GitHub actions to build the results page
+## Enable GitHub Actions to build the results page
 
 - [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
 
@@ -30,13 +36,18 @@ The GitHub action will automatically build the ASIC files using [LibreLane](http
 - [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
 - [Join the community](https://tinytapeout.com/discord)
 - [Build your design locally](https://www.tinytapeout.com/guides/local-hardening/)
+- [Silicon Dreams course home](https://chipmango.com/silicon-dreams)
+- [ChipFoundry platform docs](https://chipfoundry.io/docs)
 
 ## What next?
 
 - [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
+- Edit this README and explain your design, how it works, and how to test it.
 - Share your project on your social network of choice:
   - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
   - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
   - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
   - Bluesky [@tinytapeout.com](https://bsky.app/profile/tinytapeout.com)
+
+---
+*ChipMango × ChipFoundry · MoU Partnership 2026 · CM-HW-101*
